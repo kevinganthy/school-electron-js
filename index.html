@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <title>Jokes machine</title>
+  </head>
+  <body>
+    <button id="joke-btn">Get Joke</button>
+    <p id="joke"></p>
+
+    <form id="joke-form">
+      <input type="text" id="joke-input" placeholder="Enter your joke" required />
+      <button type="submit">Submit Joke</button>
+    </form>
+  </body>
+  <script src="./renderer.js"></script>
+</html>
