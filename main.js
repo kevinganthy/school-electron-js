@@ -1,0 +1,1 @@
+console.log("🚀 Let's go with Electron")
