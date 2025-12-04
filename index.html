@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <title>User Management</title>
+  </head>
+  <body>
+    <form id="user-form">
+      <input type="text" placeholder="Enter username" required />
+      <button>Vérifier</button>
+      <input disabled="true" type="submit" value="Add User" />
+    </form>
+  </body>
+  <script type="module" src="./renderer.js"></script>
+</html>
