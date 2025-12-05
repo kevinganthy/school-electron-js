@@ -88,3 +88,16 @@ code[class*="language-"] {
   font-size: 0.9em;
   color: #e01e5a;
 }
+
+@media print {
+  html {
+    font-size: 10px;
+  }
+  body {
+    background: none;
+    margin-bottom: 0;
+  }
+  hr {
+    margin-top: 0;
+  }
+}

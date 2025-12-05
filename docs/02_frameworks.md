@@ -15,7 +15,7 @@ description: Explorez les frameworks Electron, .NET et Java, comprenez leurs sp�
 
 - **Comprendre** les concepts fondamentaux d'Electron, .NET et Java.  
 - **Identifier** les forces et faiblesses de chaque framework pour le développement desktop.  
-- **Analyser** les cas d'utilisation typiques de ces technologies.  
+- **Analyser** les cas d'utilisation typiques de ces technologies.
 
 ---
 
@@ -34,13 +34,13 @@ Framework JavaScript basé sur Node.js et Chromium. Idéal pour créer des appli
 ---
 
 **Avantages** :  
-- 🚀 Développement rapide avec des technologies web.  
-- 🌍 Cross-platform : un seul code pour Windows, macOS, et Linux.  
-- 🌟 Large communauté et nombreux plugins.  
+- Développement rapide avec des technologies web.  
+- Cross-platform : un seul code pour Windows, macOS, et Linux.  
+- Large communauté et nombreux plugins.  
 
 **Inconvénients** :  
-- ⚡ Consommation élevée de ressources (mémoire et CPU).  
-- 📦 Taille importante des binaires (Chromium intégré).  
+- Consommation élevée de ressources (mémoire et CPU).  
+- Taille importante des binaires (Chromium intégré).  
 
 **Cas d'utilisation typiques** :  
 - **Slack** : Communication et collaboration.  
@@ -60,13 +60,13 @@ Framework JavaScript basé sur Node.js et Chromium. Idéal pour créer des appli
 ---
 
 **Avantages** :  
-- 🔗 Performance native sur Windows.  
-- 🖌️ Support des frameworks WPF et WinForms.  
-- 🛠️ Intégration poussée avec les services et outils Microsoft.  
+- Performance native sur Windows.  
+- Support des frameworks WPF et WinForms.  
+- Intégration poussée avec les services et outils Microsoft.  
 
 **Inconvénients** :  
-- 🎯 Principalement ciblé sur Windows (malgré le support cross-platform avec .NET Core).  
-- 📚 Courbe d'apprentissage pour les nouveaux développeurs.  
+- Principalement ciblé sur Windows (malgré le support cross-platform avec .NET Core).  
+- Courbe d'apprentissage pour les nouveaux développeurs.  
 
 **Cas d'utilisation typiques** :  
 - **Microsoft Office** : Suite bureautique.  
@@ -86,13 +86,13 @@ Technologie mature et cross-platform avec JavaFX et Swing pour créer des applic
 ---
 
 **Avantages** :  
-- 🌍 Multiplateforme grâce à la JVM (Java Virtual Machine).  
-- 🖥️ API riches pour les interfaces utilisateur (JavaFX, Swing).  
-- 📈 Grande stabilité et rétrocompatibilité.  
+- Multiplateforme grâce à la JVM (Java Virtual Machine).  
+- API riches pour les interfaces utilisateur (JavaFX, Swing).  
+- Grande stabilité et rétrocompatibilité.  
 
 **Inconvénients** :  
-- 🔧 Nécessité d'installer la JVM pour exécuter les applications.  
-- 🎨 Interfaces parfois perçues comme moins modernes sans personnalisation.  
+- Nécessité d'installer la JVM pour exécuter les applications.  
+- Interfaces parfois perçues comme moins modernes sans personnalisation.  
 
 **Cas d'utilisation typiques** :  
 - **IntelliJ IDEA** : IDE pour développeurs.  
@@ -122,7 +122,8 @@ Technologie mature et cross-platform avec JavaFX et Swing pour créer des applic
 
 ## Conclusion  
 
-🧠 **Le choix du framework dépend** :  
+**Le choix du framework dépend** :
+
 1. Des besoins en performances.  
 2. De l'intégration au système d'exploitation.  
 3. Des compétences des équipes.  

@@ -64,7 +64,7 @@ description: Explorez l'évolution des applications desktop, leurs cas d'usage, 
 ---
 
 * Traitement vidéo : Performances, accès matériel.
-* IDEs de développement : Contenue locale, performances, debuggage.
+* IDEs de développement : Contenu locale, performances, debuggage.
 * Création 3D : Accès GPU, ressources locales.
 
 ---
