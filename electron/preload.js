@@ -1,6 +1,6 @@
 const { contextBridge, ipcRenderer } = require('electron')
 
-contextBridge.exposeInMainWorld('versions', {
+contextBridge.exposeInMainWorld('users', {
   getUsers: () => ipcRenderer.invoke('users:get'),
   isUserExist: (username) => ipcRenderer.invoke('users:exist', username),
   addUser: (user) => ipcRenderer.send('users:add', user),

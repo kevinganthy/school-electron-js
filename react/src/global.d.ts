@@ -1,6 +1,6 @@
 declare global {
   interface Window {
-    versions: {
+    users: {
       getUsers: () => Promise<string[]>;
       isUserExist: (username: string) => Promise<boolean>;
       addUser: (username: string) => Promise<void>;

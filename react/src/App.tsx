@@ -7,7 +7,7 @@ function App() {
   useEffect(() => {
     const getUsers = async () => {
       try {
-        const fetchedUsers = await window.versions.getUsers();
+        const fetchedUsers = await window.users.getUsers();
         console.log('Utilisateurs existants :', fetchedUsers);
         setUsers(fetchedUsers);
       } catch (error) {
